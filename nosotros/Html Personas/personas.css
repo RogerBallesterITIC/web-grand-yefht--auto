@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Pricedown';
+    src: url('https://raw.githubusercontent.com/infin1tyy/pricedown-font-web/master/pricedown.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.menu_antes{
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue";
+}
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    width: 100px;
+    padding: 20px;
+    padding-left: 40px;
+    align-content: center;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    align-content: center;
+    
+}
+
+.titulo_menu{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+    padding-right: 60px;
+    
+}
+
+
+
+.menu a:hover {
+  text-decoration:underline  #e346ff;
+  text-underline-offset: 6px;
+}
+
+.linea_horizontal{
+    width: 100%;             
+    height: 3px;             
+    background-color: #e346ff;  
+    margin: 0;       
+    border-radius: 2px;
+}
+
+.contenido{
+    padding-top: 250px;
+    padding-left: 150px;
+    display: flex;
+}
+
+.contenido_izq{
+    width: 30px;
+}
+.contenido_izq img{
+    position: fixed;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.nom_persona h1{
+    font-family: "Pricedown";
+    color: #e346ff;
+    font-size: 55px;
+    padding: 60px;
+    padding-bottom: 25px;
+}
+.definicion_persona p{
+    color: white;
+    padding-left: 60px;
+    padding-right: 150px;
+    font-family: "Science Gothic";
+    font-size: 15px;
+}
+.informacion_principal{
+    display: block;
+    padding-left: 280px;
+}
+.informacion_principal table{
+    color: white;
+    
+    border-collapse: collapse;
+    border: #e346ff 2px solid;
+    margin: 35px;
+    background-color:rgba(227,70,255,0.2);
+}
+
+.informacion_principal th{
+    font-family: "Science Gothic";
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 330px;
+    color: #e346ff;
+    border: #e346ff 2px solid;
+}
+
+.informacion_principal td{
+    font-family: "Science Gothic";
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    border: #e346ff 2px solid;
+}
+
+.informacion_personal{
+    padding-left:55px;
+    width: 400px;
+    text-align: center;
+    padding-top: 50px;
+}
+.informacion_personal h1{
+    color: white;
+    padding: 5px;
+    font-family: "Pricedown";
+    font-size: 30px;
+    background-color: #e346ff;
+}
+
+.nom_persona_izq{
+    position: fixed;
+    font-family: "Pricedown";
+    color: white;
+    font-size: 35px;
+    padding-bottom: 25px;
+    margin-top: 400px;
+    margin-right: 50px;
+    text-align: center;
+}

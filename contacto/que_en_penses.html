@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Yheft Ñauto VII - Contacto</title>
+
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        @font-face {
+            font-family: 'Pricedown';
+            src: url('https://raw.githubusercontent.com/infin1tyy/pricedown-font-web/master/pricedown.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {background:black; color:white; margin:0; padding:0; font-family:'Bebas Neue',sans-serif;}
+        .menu_antes{position: fixed;width: 100%;}
+        .menu{display: flex;background-color: black;justify-content: space-between;color: white;font-size: 40px;padding: 0;margin: 0;font-family: "Bebas Neue";padding-right: 30px;}
+        body{background-color: black;padding: 0px;margin: 0px;}
+        .logo{width: 100px;padding: 20px;padding-left: 40px;align-content: center;}
+        .logo:hover{transform: scale(1.1);}
+        .links{display: flex;gap: 40px;align-content: center;}
+        .links a {display: flex;color:white; text-decoration:none; margin:0 30px; font-size:40px;align-items: center;}
+        .titulo_menu{text-decoration: none;color: white;align-content: center;padding-right: 60px;}
+        .menu a:hover {text-decoration:underline  #e346ff;text-underline-offset: 6px;}
+        .linea_horizontal{width: 100%;height: 3px;background-color: #e346ff;margin: 0;border-radius: 2px;}
+        .contenido {padding-top:45px; text-align:center; max-width:900px; margin:0 auto;}
+        .contenido h1{font-family: "Pricedown"; font-size: 45px; text-align: center; color: #e346ff;}
+        .personaje {width: 100%;height: 400px;padding-top: 220px;background-image: url("Fotos/fondo.jpg");background-size: cover;background-position: center; background-repeat: no-repeat;}
+        .contenido_personaje {display: flex;padding-top: 35px;color: white;text-align: left;padding-left: 40px;padding-right: 40px;justify-content: center;}
+        .contenido_personaje h1 {font-size: 100px;margin-bottom: 30px;color: white;font-family: "Pricedown";}
+        p {font-size:24px;}
+        form {display:flex; flex-direction:column; gap:25px;padding-bottom: 25px;}
+        input, select, textarea {
+            background:rgba(255,255,255,0.05); border:2px solid #e346ff; color:white;
+            padding:18px; font-size:22px; border-radius:12px; font-family:'Bebas Neue';
+        }
+        select option:hover,select option:focus,select option:active {background-color: #e346ff;color: black;}         
+        input::placeholder, textarea::placeholder {color:rgba(255,255,255,0.5);}
+        button {
+            background:#e346ff; color:white; font-size:36px; padding:20px;
+            border:none; border-radius:12px; cursor:pointer; margin-top:20px;
+            transition:0.3s; font-family: "Pricedown";
+        }
+        button:hover {background:#e346ff; transform:scale(1.05);color: white;}
+        .grupo {background:rgba(255,255,255,0.05); padding:20px; border-radius:12px; border:2px solid #e346ff; text-align:left;}
+        .grupo label {display:block; margin:15px 0; font-size:22px;}
+        .grupo input[type="checkbox"], .grupo input[type="radio"] {transform:scale(1.7); margin-right:12px; accent-color:;}
+        footer{display: flex;justify-content: center;}
+        .footer_1{display: block;padding-top: 35px;align-items: center;padding-left: 50px;border-left: #e346ff 2px solid;}
+        .footer_1 img{width: 150px;}
+        .footer_2{display: block;padding-left: 170px;padding-top: 15px;}
+        .footer_2 h1{font-family: "Pricedown";font-size: "30px";color: #e346ff;padding-left: 70px;}
+        .footer_2 ol{font-family: "Bebas Neue";font-size: 35px;color: white;text-align: center;}
+        .footer_2 a{text-decoration: none;font-family: "Bebas Neue";font-size: 35px;color: white;}
+        .footer_3{display: block;padding-left: 170px;padding-top: 15px;padding-right: 50px;border-right: #e346ff 2px solid;}
+        .footer_3 h1{font-family: "Pricedown";font-size: "30px";color: #e346ff;padding-left: 70px;}
+        .footer_3 ol{font-family: "Bebas Neue";font-size: 35px;color: white;text-align: center;}
+        .footer_3 a{text-decoration: none;font-family: "Bebas Neue";font-size: 35px;color: white;}
+    </style>
+
+</head>
+<body>
+
+    <div class="menu_antes">
+        <div class="menu">
+            <a href="../index/index.html"><img class="logo" src="../index/Fotos/logo.png" alt="Logo"></a>
+            <div class="links">
+                <a href="../historia/historia.html">HISTORIA</a>
+                <a href="../personatges/personatges.html">PERSONAJES</a>
+                <a href="../juego/juego.html">JUEGO</a>
+                <a href="../galeria/galeria.html">GALERIA</a>
+                <a href="../contacto/que_en_penses.html">CONTACTO</a>
+                <a href="../nosotros/nosotros.html">NOSOTROS</a>
+            </div>
+        </div>
+        <div class="linea_horizontal"></div>
+    </div>
+    <div class="personaje">
+        <div class="contenido_personaje">
+            <h1>CONTACTO</h1>
+        </div>
+    </div>
+    <div class="contenido" id="formulario">
+        <h1>¿ENVIA UN MENSAJE A LA BANDA?</h1>
+        <p>Rellena el formulario y te contestaremos lo antes que podamos (o cuando Vicenzo salga de la carcel)</p>
+
+        <form action="enviado.html" method="get">
+
+            <input type="text" placeholder="Nombre Completo" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <input type="number" placeholder="Edad" required>
+
+            <select required>
+                <option value="" disabled selected>Tipo de negocio</option>
+                <option>Compra</option>
+                <option>Distribución</option>
+                <option>Chivatazo</option>
+            </select>
+
+            <div class="grupo">
+                <p style="color:#e346ff; margin:0 0 10px 0;">Servicios que te interesan:</p>
+                <label><input type="checkbox"> Transporte blindado</label>
+                <label><input type="checkbox" checked> Lavado de dinero (recomendado)</label>
+                <label><input type="checkbox"> Protección 24h</label>
+                <label><input type="checkbox"> Código de silencio</label>
+            </div>
+
+            <div class="grupo">
+                <p style="color:#e346ff; margin:0 0 10px 0;">¿Cómo nos conociste?</p>
+                <label><input type="radio" name="origen" checked> Por la calle</label>
+                <label><input type="radio" name="origen"> Un primo</label>
+                <label><input type="radio" name="origen"> En una redada</label>
+            </div>
+
+            <textarea rows="8" placeholder="Suelta el mensaje, compa... cuanto más detalle mejor" required></textarea>
+
+            <button type="submit">ENVIAR MENSAJE</button>
+        </form>
+    </div>
+    <div class="linea_horizontal"></div>
+    <footer>
+        <div class="footer_1">
+            <img src="../index/Fotos/logo.png">
+        </div>
+        <div class="footer_2">
+            <h1>Informacion Legal</h1>
+            <ul>
+                <ol><a href="">Politica de Cookies</a></ol>
+                <ol><a href="">Aviso Legal</a></ol>
+            </ul>
+        </div>
+        <div class="footer_3">
+            <h1>Redes Sociales</h1>
+            <ul>
+                <ol><a href="">Twitter</a></ol>
+                <ol><a href="">Whatsapp</a></ol>
+                <ol><a href="">Instagram</a></ol>
+                <ol><a href="">TikTok</a></ol>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

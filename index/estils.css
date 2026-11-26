@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Pricedown';
+    src: url('https://raw.githubusercontent.com/infin1tyy/pricedown-font-web/master/pricedown.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu_antes{
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue";
+}
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    width: 100px;
+    padding: 20px;
+    padding-left: 40px;
+    align-content: center;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    align-content: center;
+    
+}
+
+.titulo_menu{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+    padding-right: 60px;
+    
+}
+
+
+
+.menu a:hover {
+  text-decoration:underline  #e346ff;
+  text-underline-offset: 6px;
+}
+
+.linea_horizontal{
+    width: 100%;             
+    height: 3px;             
+    background-color: #e346ff;  
+    margin: 0;       
+    border-radius: 2px;
+}
+
+.inicio {
+    width: 100%;
+    height: 610px;
+    padding-top: 220px;
+    background-image: url("Fotos/fondo.jpg");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.contenido_inicio {
+    display: block;
+    padding-top: 100px;        
+    color: white;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+}
+
+
+.contenido_inicio h1 {
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Pricedown";
+}
+
+.contenido_inicio p {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Bebas Neue";
+}
+.titulo_continguts h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Pricedown";
+    text-align: center;
+    padding-bottom: 20px;
+}
+.lista_continguts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contingut{
+    display: block;
+}
+
+.contingut img{
+    width: 400px;
+    margin-bottom: 50px;
+    border: #e346ff 2px solid;
+    border-radius: 15px;
+}
+.linea_horizontal_contenido{
+    width: 50%;             
+    height: 3px;             
+    background-color: #e346ff;  
+    margin-left: 25%;       
+    border-radius: 2px;
+}
+
+.infomacion_contenido{
+    display: flex;
+}
+
+.informacion_contenido table{
+    color: white;
+    
+    border-collapse: collapse;
+    border: #e346ff 2px solid;
+    margin: 35px;
+    background-color:rgba(227,70,255,0.2);
+}
+
+.informacion_contenido th{
+    font-family: "Science Gothic";
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 330px;
+    color: #e346ff;
+    border: #e346ff 2px solid;
+}
+
+.informacion_contenido td{
+    font-family: "Science Gothic";
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    border: #e346ff 2px solid;
+    align-self: center;
+}
+
+.informacion_video video{
+    width: 1000px;
+    padding-left: 15%;
+    padding-bottom: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_1{
+    display: block;
+    padding-top: 35px;
+    align-items: center;
+    padding-left: 50px;
+    border-left: #e346ff 2px solid;
+}
+.footer_1 img{
+    width: 150px;
+}
+.footer_2{
+    display: block;
+    padding-left: 170px;
+    padding-top: 15px;
+}
+.footer_2 h1{
+    font-family: "Pricedown";
+    font-size: "30px";
+    color: #e346ff;
+    padding-left: 70px;
+}
+
+.footer_2 ol{
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.footer_2 a{
+    text-decoration: none;
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    color: white;
+}
+.footer_3{
+    display: block;
+    padding-left: 170px;
+    padding-top: 15px;
+    padding-right: 50px;
+    border-right: #e346ff 2px solid;
+}
+.footer_3 h1{
+    font-family: "Pricedown";
+    font-size: "30px";
+    color: #e346ff;
+    padding-left: 70px;
+}
+
+.footer_3 ol{
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.footer_3 a{
+    text-decoration: none;
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    color: white;
+}
